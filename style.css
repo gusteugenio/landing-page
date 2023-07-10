@@ -72,8 +72,13 @@ li.logo {
 button {
     font-size: 20px;
     width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
     align-self: flex-start;
     margin: 5px;
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
 
 .apresentation img {
