@@ -1,25 +1,29 @@
-body {
+html, body, .princ-container {
     height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
-}
-
-.princ-container {
-    min-height: 100%;  
     box-sizing: border-box;
 }
 
 .hero, .footer, .apresentation {
     flex: 1;
+    width: 100%;
+    display: flex;
     background-color: #1F2937;
-    margin: 0;
+    border: 1px solid transparent;
+}
+
+.information, .quote, .sign-up {
+    flex: 1;
+    border: 1px solid transparent;
 }
 
 .hero ul {
     display: flex;
+    flex: 1;
     list-style-type: none;
     align-items: baseline;
-    padding: 0;
     margin: 0;
     justify-content: center;
     gap: 10px;
@@ -36,5 +40,18 @@ li.logo {
     color: white;
     font-size: 24px;
     margin-right: auto;
+}
+
+.apresentation .first {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 40px;
+}  
+
+.apresentation img {
+    width: 500px;
+    height: auto;
+    padding-right: 100px;
 }
 
