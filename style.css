@@ -14,10 +14,12 @@ html, body, .princ-container {
     background-color: #1F2937;
     border: 1px solid transparent;
     padding-bottom: 60px;
+    box-sizing: border-box;
 }
 
 .information, .quote, .sign-up {
     flex: 1;
+    display: flex;
     border: 1px solid transparent;
     padding-bottom: 60px;
 }
@@ -69,7 +71,7 @@ li.logo {
     margin: 5px;
 }
 
-button {
+.first button {
     font-size: 20px;
     width: 100px;
     height: 30px;
@@ -91,8 +93,6 @@ button {
 }
 
 .information {
-    flex: 1;
-    display: flex;
     flex-direction: column;
     width: 100%;
     border: 1px solid transparent;
@@ -140,13 +140,12 @@ button {
 }
 
 .quote {
-    flex: 1;
-    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding-right: 100px;
     padding-left: 100px;
     background-color: #E5E7EB;
+    align-items: center;
 }
 
 .quote .quo .author {
@@ -165,4 +164,17 @@ button {
     font-size: 36px;
     font-style: light italic;
     text-align: justify;
+}
+
+.sign-up {
+    justify-content: center;
+    align-items: end;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.sign-up .cont2 {
+    flex: 1;
+    background-color:  #3882F6;
+    color: white;
 }
