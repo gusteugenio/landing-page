@@ -21,6 +21,9 @@ html, body, .princ-container {
     flex: 1;
     display: flex;
     border: 1px solid transparent;
+}
+
+.information {
     padding-bottom: 60px;
 }
 
@@ -111,8 +114,8 @@ li.logo {
     flex: 1;
     justify-content: center;
     box-sizing: border-box;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
     gap: 30px;
 }
 
@@ -128,8 +131,8 @@ li.logo {
     flex: 1;
     justify-content: center;
     box-sizing: border-box;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
     gap: 30px;
 }
 
@@ -142,8 +145,7 @@ li.logo {
 .quote {
     flex-direction: column;
     box-sizing: border-box;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 100px 200px;
     background-color: #E5E7EB;
     align-items: center;
 }
@@ -156,8 +158,6 @@ li.logo {
     font-size: 20px;
     font-weight: 800;
     align-self: end;
-    padding: 0;
-    margin-top: 0;
 }
 
 .quote .quo {
@@ -168,13 +168,30 @@ li.logo {
 
 .sign-up {
     justify-content: center;
-    align-items: end;
-    padding-right: 100px;
-    padding-left: 100px;
+    align-items: center;
+    padding: 100px;
 }
 
 .sign-up .cont2 {
-    flex: 1;
+    width: 100%;
+    display; flex;
     background-color:  #3882F6;
     color: white;
 }
+
+.cont2 button {
+    flex: 1;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cont2 .p {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
