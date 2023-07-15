@@ -7,7 +7,7 @@ html, body, .princ-container {
     font-family: 'Roboto', sans-serif;
   }
   
-  .hero, .footer, .apresentation {
+  .hero, .apresentation {
     flex: 1;
     width: 100%;
     display: flex;
@@ -204,9 +204,21 @@ html, body, .princ-container {
     margin-bottom: -10px;
   }
   
+  .footer {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
   .footer p {
+    width: 100%;
     color: #E5E7EB;
     font-size: 18px;
-    align-items: center;
-    justify-items: center;
+    text-align: center;
   }
